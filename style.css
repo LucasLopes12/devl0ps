@@ -261,14 +261,6 @@ nav {
   animation: floatImage 6.8s ease-in-out infinite;
   animation-delay: -1.2s;
 }
-.hero-image-backrooms {
-  right: 2%;
-  bottom: 6%;
-  width: clamp(120px, 14vw, 190px);
-  --rotate: 2deg;
-  animation: floatImage 7.8s ease-in-out infinite;
-  animation-delay: -.8s;
-}
 @keyframes floatImage {
   0%, 100% { transform: translate3d(0, 0, 0) rotate(var(--rotate)); }
   50% { transform: translate3d(0, -16px, 0) rotate(calc(var(--rotate) + 2deg)); }
